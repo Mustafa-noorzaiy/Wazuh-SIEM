@@ -11,19 +11,20 @@
 </ul>
 Each of the clients (Ubuntu and Windows) communicates with the Wazuh server over the network to provide real-time data on system activities, security events, and other relevant information.
 <br />
-<h2>Network Diagram</h2>
------
-<h2>Tools and Utilities Used</h2>
+<h2>Network Diagram</h2>  
 
-- <b>-----</b>
+<img width="320" alt="image" src="https://github.com/user-attachments/assets/f8fab8e4-c347-4677-9692-eff70bed8450">
 
-<h2>Environments Used </h2>
+<h2>Environments & Tools Used </h2>
 
 - <b>VMware</b>
 - <b>Ubuntu</b>
 - <b>Windows 10</b>
 - <b>PowerShell</b>
 - <b>Linux Commands</b>
+- <b>Wazuh</b>
+- <b>File Integrity Monitoring (FIM)</b>
+- <b>Vulnerbility detections</b>
 
 <h2>Here are the steps to install VMware, Ubuntu, and Wazuh on VMware</h2>
 
@@ -67,7 +68,7 @@ Windows user before event
 
 
 <h1>Events (Case Studies)</h1>  
-<b>1.File Integrity</b>
+<b>1.File Integrity Monitoring</b>
 File integrity monitoring
 File Integrity Monitoring (FIM) helps in auditing sensitive files and meeting regulatory compliance requirements. Wazuh has an inbuilt FIM module that monitors file system changes to detect the creation, modification, and deletion of files.  
 
@@ -94,6 +95,43 @@ To get additional information about the user and process that made the changes, 
 <directories check_all="yes" report_changes="yes" realtime="yes">C:\Users\<USER_NAME>\Desktop</directories>  
 ![image](https://github.com/user-attachments/assets/d120d509-4deb-451d-8755-de86344d910e)  
 <img width="492" alt="image" src="https://github.com/user-attachments/assets/d8fb55f0-e885-41e6-9ff7-c755e35784f1">  
+
+<img width="527" alt="image" src="https://github.com/user-attachments/assets/2982074a-794a-4298-8ab1-67c189f318b5">  
+
+<h2>Demo</h2>  
+
+![image](https://github.com/user-attachments/assets/8947339a-9d3b-483d-95f3-07e3db162c96)  
+![image](https://github.com/user-attachments/assets/bbc6c91b-76d1-44bd-8e58-428fadaa71bb)  
+
+<img width="855" alt="image" src="https://github.com/user-attachments/assets/1e79fb18-d764-4908-969c-0ed69c4e1066">  
+
+<img width="854" alt="image" src="https://github.com/user-attachments/assets/73f1349b-e4c4-40ae-83ef-7a0288274fec">
+
+![image](https://github.com/user-attachments/assets/9ac3b1a0-c855-405f-a117-28f64d3c7f46)  
+
+<img width="851" alt="image" src="https://github.com/user-attachments/assets/93c74475-cf97-415f-a302-4c1eeb52be52">  
+
+![image](https://github.com/user-attachments/assets/99dbb1cd-e8bb-4ead-bdce-4bb8b0162b69)  
+
+![image](https://github.com/user-attachments/assets/3520ed28-ea47-4032-82cf-b723cd6a58ff)  
+
+<b>2. Vulnerability Detection</b>  
+
+<img width="533" alt="image" src="https://github.com/user-attachments/assets/9e4fc31d-699d-4d3c-8ea1-accf10fbc618">  
+
+![image](https://github.com/user-attachments/assets/656a38b8-0c83-4b0d-b89b-964ed2b80356)  
+
+*********************************
+<img width="545" alt="image" src="https://github.com/user-attachments/assets/f2f9dcfc-a1de-4e76-89a6-4f8dcadafadf">  
+
+
+
+
+
+
+
+
+
 
 
 
